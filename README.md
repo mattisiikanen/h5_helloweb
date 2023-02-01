@@ -54,7 +54,7 @@ Vastauksena selaimen kysymykseen: Kyllä toimii!
 
 ## Käyttäjänsivut
 Klo 16:39
-Siirtyessäni seuraavaan tehtävään, tuli minun alustaa ennen muokkausta Apachea käyttämällä komentoa ```sudo a2enmod userdir```. Tämä komento mahdollistaa käyttäjäkohtaisten sivujen luonnin ja muokkauksen. Komennon lisäksi tuli vielä käynnistää Apache palvelu uudelleen komennolla ```sudo systemctl restart apache2```</br>
+Siirtyessäni seuraavaan tehtävään, tuli minun alustaa ennen muokkausta Apachea käyttämällä komentoa ```sudo a2enmod userdir```. Tämä komento mahdollistaa käyttäjäkohtaisten sivujen luonnin ja muokkauksen. Komennon lisäksi tuli vielä käynnistää Apache palvelu uudelleen komennolla: ```sudo systemctl restart apache2```</br>
 ![Kuva 5](https://user-images.githubusercontent.com/122887740/216073860-776e4c08-7b83-41e5-a8d7-be1ee0d9038c.png)</br>
 Vasta alustuksen jälkeen pääsin luomaan ja konfiguroimaan käyttäjän sivut. Sivuja luotaessa on hyvin tärkeää, että navigoi käyttäjän kotikansioon ja luo sinne uuden kansion nimeltä ```public_html``` käyttämällä ```mkdir``` komentoa. Kansiossa public_html tuli ```micro``` komennolla luoda uusi tiedosto index.html syöttämällä se näin: ```micro index.html```. Muokattu tiedosto näyttää tältä: </br>
 ![Kuva 6](https://user-images.githubusercontent.com/122887740/216074992-97298bc5-c2b6-4f77-b33e-8e0a0d120bcf.png)</br>
