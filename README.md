@@ -53,7 +53,7 @@ Lisäys näytti onnistuvan hyvin. Seuraavaksi tarkistin tilanteen vielä selaime
 Vastauksena selaimen kysymykseen: Kyllä toimii!
 
 ## Käyttäjänsivut
-Klo 16:39
+Klo 16:39 </br>
 Siirtyessäni seuraavaan tehtävään, tuli minun alustaa ennen muokkausta Apachea käyttämällä komentoa ```sudo a2enmod userdir```. Tämä komento mahdollistaa käyttäjäkohtaisten sivujen luonnin ja muokkauksen. Komennon lisäksi tuli vielä käynnistää Apache palvelu uudelleen komennolla: ```sudo systemctl restart apache2```</br>
 ![Kuva 5](https://user-images.githubusercontent.com/122887740/216073860-776e4c08-7b83-41e5-a8d7-be1ee0d9038c.png)</br>
 Vasta alustuksen jälkeen pääsin luomaan ja konfiguroimaan käyttäjän sivut. Sivuja luotaessa on hyvin tärkeää, että navigoi käyttäjän kotikansioon ja luo sinne uuden kansion nimeltä ```public_html``` käyttämällä ```mkdir``` komentoa. Kansiossa public_html tuli ```micro``` komennolla luoda uusi tiedosto index.html syöttämällä se näin: ```micro index.html```. Muokattu tiedosto näyttää tältä: </br>
@@ -63,7 +63,7 @@ Julkaisun jälkeen sivusto näyttää tältä (localhost/~mattis/): </br>
 Kuvassa näkee, että sivustoa varten ei ole konfiguroitu ääkkösiä. </br>
 
 ## Uuden käyttäjän käyttäjäsivut
-Klo 16:49
+Klo 16:49 </br>
 Tehtävänanto oli käytännössä sama kuin edellisessä, mutta tätä tehtävää varten tuli ensin luoda toinen käyttäjä koneelle ja kirjautua siihen. Aloitin luomalla uuden käyttäjän nimeltä masa (Matti Siikanen) käyttäen komentoa ```sudo adduser masa```:
 ![Kuva 8](https://user-images.githubusercontent.com/122887740/216076439-d35c0baa-bf31-4d75-9328-d7fb5c9afd00.png)
 Tein samat temput kuin toisella käyttäjällä:</br>
@@ -75,7 +75,7 @@ Tajusin mokani hyvin pian ja loin index.html tiedoston oikeaan kansioon: </br>
 Nyt näyttää toimivan oikein. On siis käyttäjän masa aika pakata kimpsut ja kampsut, sekä kirjautua ulos.
 
 ## Validi html-sivusto
-Klo 17:01
+Klo 17:01 </br>
 Viimeistä tehtävää varten tuli katsoa ensin ohjeet validin HTML5 sivun tekemiseen, opettajani Tero Karvinen on tehnyt hyvän kuvauksen lyhyestä HTML5-sivusta omassa artikkelissaan Short HTML5 page (https://terokarvinen.com/2012/short-html5-page/). Päätin käyttää kyseistä ohjetta oman HTML5 sivun luomiseksi aloittamalla muokkaamalla käyttäjänkansiossa olevaa index.html-tiedostoa ```micro``` komennolla: </br>
 ![Kuva 12](https://user-images.githubusercontent.com/122887740/216082441-24741a18-af38-494d-a184-571ed02651d8.png)</br>
 Valmis tuotos näytti tältä: </br>
