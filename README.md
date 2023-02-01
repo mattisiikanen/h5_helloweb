@@ -71,7 +71,7 @@ Kummastelin tulosta Firefoxissa: </br>
 ![Kuva 10](https://user-images.githubusercontent.com/122887740/216078433-767830e7-ab81-4b12-9193-376a3ce5e05d.png)</br>
 Tajusin mokani hyvin pian ja loin index.html tiedoston oikeaan kansioon: </br>
 ![Kuva 11](https://user-images.githubusercontent.com/122887740/216078733-e35fef38-0894-4da4-93b8-9948f9b14144.png)</br>
-Nyt näyttää toimivan oikein. On siis käyttäjän masa pakata kimpsut ja kampsut, sekä kirjautua ulos.
+Nyt näyttää toimivan oikein. On siis käyttäjän masa aika pakata kimpsut ja kampsut, sekä kirjautua ulos.
 
 ## Validi html-sivusto
 Klo 17:01
